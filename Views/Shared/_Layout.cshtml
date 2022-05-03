@@ -1,0 +1,34 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>_Layout</title>
+</head>
+<body>
+    <div>
+        <hr />
+        <i>This is the header  (Common Content)</i>
+        @RenderSection("localcontent", false)
+        <hr />
+    </div>
+    <div>
+        @RenderBody()<hr />
+        <i>This is the footer (Common Content)</i>
+        <hr />
+
+    </div>
+
+    <div>
+        <hr />
+        <i>This is the footer (Common Content)</i>
+        <hr />
+
+    </div>
+</body>
+</html>
