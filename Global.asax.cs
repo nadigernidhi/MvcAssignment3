@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 
-namespace Assignment4
+namespace AssignmentDay2
 {
     public class MvcApplication : System.Web.HttpApplication
     {
